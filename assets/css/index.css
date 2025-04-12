@@ -1,5 +1,5 @@
 :root{
-    --header-logo-height: 4.5rem
+    --header-logo-height: 5rem
 }
 
 body{
@@ -118,5 +118,41 @@ h5{
     font-style: italic;
 }
 
+.content-block{
+    width: 80%;
+    height: 65%;
+    margin: 0 auto;
+
+    display: grid; 
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.logo-section{
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section-image{
+    max-width:  5.5rem;
+    max-height: 5.5rem;
+}
+
+.main-section-span{
+    color: #19B608;
+}
 
 
+/*    Offers section     */
+/* ======================================================================= */
+
+.offers-section{
+ height: 100vh;
+}
