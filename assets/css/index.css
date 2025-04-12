@@ -177,10 +177,9 @@ h5{
     width: 78.5%;
     height: 150vh;
 
+    color: #F0F0F0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-
-    border: 1px solid white;
 }
 
 
@@ -191,8 +190,7 @@ h5{
     display: flex;
     justify-content: space-between;
 
-
-    border-bottom: 1px solid red;
+    margin-bottom: 1.25rem;
 }
 
 
@@ -240,4 +238,73 @@ h5{
     white-space: normal;
 }
 
+.second-card-section{
+    width: 100%;
+    height: 16.5rem;
 
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-second-section-first{
+    height: 100%;
+    width: 32.1%;
+
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,52%)), url("../jpg/84_a793242f.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-second-section-second{
+    height: 100%;
+    width: 32.1%;
+
+    background: linear-gradient(rgba(0,0,0,56%), rgba(0,0,0,56%)), url("../jpg/key-repair-11.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-second-section-third{
+    height: 100%;
+    width: 32.1%;
+
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,55%)), url("../jpg/photo_2024-08-30_13-07-43-big.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-second-section-first-span{
+    margin-top: 52%;
+
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 1.35rem;
+    line-height: 1.5rem;
+    /* white-space: normal; */
+}
+
+.card-second-section-second-span{
+    margin-top: 59.9%;
+
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    /* white-space: normal; */
+}
+
+.card-second-section-third-span{
+    margin-top: 59.5%;
+
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    /* white-space: normal; */
+}
