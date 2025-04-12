@@ -14,10 +14,11 @@ h1{
 }
 
 h2{
-
+    font-size: 2rem;
 }
 
 h3{
+    font-size: 1.65rem;
 
 }
 
@@ -59,7 +60,33 @@ h5{
 }
 
 .header-content{
-    display: inline-block;
+    width: 100%;
+
+    color: #23FC0B;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+.header-h2{
+
+}
+
+.call-button{
+    padding: 0.35rem 5rem;
+    margin-right: -3rem;
+
+    color: #23FC0B;
+    font-size: 1.4rem;
+    
+    background-color: transparent;
+
+    border: 1px solid #23FC0B;
+    border-radius: 3px;
 }
 
 /* Main Section */
