@@ -386,6 +386,52 @@ h5{
     margin-top: 77.5%;
 }
 
-.third-fourth-span{
-    margin-top: 77%;
+/* ========================== */
+
+.fourth-first{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,55%)), url("../jpg/screenshot_5-2-264x264.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.fourth-second{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,55%)), url("../jpg/proshivka-i-vosstanovlenie-blokov-srs-airbag_5-264x264.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+}
+
+.fourth-third{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,55%)), url("../jpg/screenshot_3-25-264x264.png");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+}
+
+.fourth-fourth{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,55%)), url("../jpg/rusifikacija-klimat-kontrol-264x264.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid white;
+}
+
+
+.fourth-first-span{
+    width: 100%;
+    margin-top: 79%;
+}
+
+.fourth-second-span{
+    width: 100%;
+    margin-top: 79%;
+}
+
+.fourth-third-span{
+    width: 100%;
+    margin-top: 79%;
+}
+
+.fourth-fourth-span{
+    width: 100%;
+    margin-top: 77.5%;
 }
