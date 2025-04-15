@@ -23,7 +23,7 @@ h3{
 }
 
 h4{
-
+    font-size: 1.35rem;
 }
 
 h5{
@@ -154,7 +154,7 @@ h5{
 /* ======================================================================= */
 
 .offers-section{
- height: 260vh;
+ height: 210vh;
 }
 
 .offers-main-title{
@@ -398,21 +398,18 @@ h5{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,55%)), url("../jpg/proshivka-i-vosstanovlenie-blokov-srs-airbag_5-264x264.jpg");
     background-size: cover;
     background-position: center;
-    border: 1px solid white;
 }
 
 .fourth-third{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,55%)), url("../jpg/screenshot_3-25-264x264.png");
     background-size: cover;
     background-position: center;
-    border: 1px solid white;
 }
 
 .fourth-fourth{
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,55%)), url("../jpg/rusifikacija-klimat-kontrol-264x264.jpg");
     background-size: cover;
     background-position: center;
-    border: 1px solid white;
 }
 
 
@@ -435,3 +432,102 @@ h5{
     width: 100%;
     margin-top: 77.5%;
 }
+
+/*       CPECIAL OFFERS SECTION */
+/* ============================================================== */
+
+.special-offers-section{
+    height: 175vh;
+}
+
+.title-special-offers{
+    width: 100%;
+    margin: 1rem 0rem 3rem 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 46px;
+    letter-spacing: 0.2rem;
+
+    display: inline-block;
+
+    text-align: center;
+}
+
+.wrapper-special-offers-section{
+    margin: 0 auto;
+    width: 78.5%;
+    height: 150vh;
+
+    color: #F0F0F0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.special-offers{
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.special-offers-card{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+    width: 32%;
+}
+
+.special-offers-card-image{
+    width: 100%;
+    max-height: 13rem;
+    
+    object-fit: fill;
+}
+
+.special-card-title{
+    width: 80%;
+
+    display: inline-block;
+
+    text-align: center;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    line-height: 1.7rem;
+
+    font-family: 'Montserrat', sans-serif;
+
+    margin: 1rem 0;
+}
+
+.special-offers-card-span{
+    width: 77%;
+    
+    color: white;
+    font-weight: 300;
+    font-size: 0.925rem;
+
+    text-align: center;
+    line-height: 1.4rem;
+
+    margin: auto;
+}
+
+.our-offers-text{
+    display: inline-block;
+
+    margin: 4.5rem 2rem;
+
+    font-size: 1.1rem;
+    white-space: 0.1rem;
+    font-family: 'Open sams' sans-serif;
+    line-height: 1.5rem;
+}
+
+
