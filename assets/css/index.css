@@ -606,10 +606,114 @@ h5{
     width: 100%;
     height: 35.2rem;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     color: #F0F0F0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 900;
 
-    background-image: url('../jpg/contact-us-background.jpg');
+}
+
+.contact-us-background-image{
+    width: 100%;
+    height: 35.2rem;
+
+    position: absolute;
+
+    object-fit: none;
+    object-position: center;
+
+    z-index: -1;
+}
+
+.contact-us-wrapper{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.contact-us-h5{
+    padding: 0.9rem 0;
+    font-size: 1.75rem;
+}
+
+.contact-us-span{
+    width: 20rem;
+
+    padding: 0.75rem;
+
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.contact-us-number{
+    padding-top: 0.25rem;
+    padding-bottom: 1.6rem;
+
+    font-size: 1.6rem;
+    letter-spacing: 0.05rem;
+}
+
+
+.contact-us-input{
+    padding-top:    0.6rem;
+    padding-bottom: 0.6rem;
+    padding-left:  0.7rem;
+    padding-right: 8rem;
+    
+    margin: 0.5rem 0;
+
+    font-size: 0.9rem;
+
+    border-radius: 0px;
+    border: none;
+}
+
+.contact-us-button{
+    padding: 0.45rem 6.52rem;
+    margin: 0.5rem 0rem;
+
+    color: #bebebe;
+    font-family: 'Inter' sans-serif;
+    font-size: 0.9rem;
+    font-weight: 550;
+    letter-spacing: 0.085rem;
+    background-color: transparent;
+    
+    border: 0.2rem solid #BEBEBE;
+}
+
+/*       REVIEWS SECTION         */
+/* ========================================================== */
+
+.reviews{
+    width: 100%;
+    height: 80rem;
+}
+
+.reviews-h1{
+    margin: 0px auto;
+
+    text-align: center;
+    font-weight: 900;
+}
+
+.reviews-wrapper{
+    margin: 0 auto;
+    width: 78.5%;
+    height: 60rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+
+    color: #F0F0F0;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
