@@ -2,6 +2,70 @@
     --header-logo-height: 5rem
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/static/Montserrat-Black.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/static/Montserrat-ExtraBold.ttf') format('ttf');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/static/Montserrat-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/static/Montserrat-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/static/Montserrat-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/static/Montserrat-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/static/Montserrat-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/static/Montserrat-ExtraLight.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Fonts/Montserrat/static/Montserrat-ThinItalic.ttf') format('ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+
 body{
     color: #FFFFFF;
     font-family: "Inter", sans-serif;
@@ -696,7 +760,7 @@ h5{
     height: 80rem;
 }
 
-.reviews-h1{
+.reviews-h1{    
     margin: 0px auto;
 
     text-align: center;
@@ -705,15 +769,42 @@ h5{
 
 .reviews-wrapper{
     margin: 0 auto;
+    margin-top: 3.5rem;
     width: 78.5%;
-    height: 60rem;
+    height: 30rem;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, auto);
+    gap: 1rem;
 
     color: #F0F0F0;
     font-family: 'Montserrat', sans-serif;
 
 }
+
+.review-card{
+    padding: 0 1rem;
+
+}
+
+.review-text{
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+
+    display: block;
+
+    padding-bottom: 2rem;
+}
+
+.review-person-name{
+    display: block;
+
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #23FC0B;
+}
+
 
